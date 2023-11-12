@@ -82,3 +82,19 @@ button:hover{
     background-color: rgb(5, 5, 82);
     transition: 0.2s  ease-in-out;
 }
+
+
+@media (max-width: 600px) { 
+    .login_box { 
+        width: 80%; 
+    } 
+    h1 { 
+        font-size: 28px; 
+    } 
+    p { 
+        font-size: 14px; 
+    } 
+    .login_form > input, .login_form > button { 
+        max-width: 80%; 
+    } 
+}
